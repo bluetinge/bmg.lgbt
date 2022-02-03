@@ -58,7 +58,6 @@ h3 {
 a {
   color:#ffcc00;
   font-weight:400;
-  text-decoration:none;
 
   &:hover {
     color: #ffeb9b;
@@ -266,14 +265,22 @@ section {
     
     
     .desc {
-      color: #71f5c4;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-size: 24px;
       text-align: center;
       margin-top: 24px;
       margin-bottom: 16px;
+      
+      a {
+        color:#5ecca4;
+        font-weight:400;
+
+        &:hover {
+          color: #71f5c4;
+        }
     }
+    
 
     .credits {
       font-size: 11px;
