@@ -1,6 +1,9 @@
 ---
 ---
 
+
+@import "{{ site.theme }}";
+
 @import "normalize";
 @import "fonts";
 @import "rouge-base16-dark.scss";
@@ -315,5 +318,3 @@ section {
     display: none;
   }
 }
-
-@import "{{ site.theme }}";
