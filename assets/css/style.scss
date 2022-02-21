@@ -269,7 +269,7 @@ section {
     
     
     .desc {
-      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: 'Verdana','OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-size: 24px;
       text-align: center;
@@ -279,7 +279,7 @@ section {
       a {
         color:#5ecca4;
         font-weight:400;
-        text-decoration:none;
+        text-decoration:underline;
 
         &:hover {
           color: #71f5c4;
