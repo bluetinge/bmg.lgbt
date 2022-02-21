@@ -165,7 +165,6 @@ dt {
   z-index: 100;
   left:0;
   top: 0px;
-  height: 60px;
   width: 100%;
   position: fixed;
   background: url(../images/nav-bg.gif) #252525;
@@ -177,7 +176,8 @@ dt {
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       color: #696969;
-      margin-top: -10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
 
       &.left {
         float: left;
@@ -268,8 +268,7 @@ dt {
 section {
   max-width:650px;
   padding: 15px 0px 50px 0px;
-  margin: 20px 0;
-  margin-top: 80px;
+  margin: 50px 0;
 
   #title {
     border: 0;
