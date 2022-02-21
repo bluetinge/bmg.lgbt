@@ -11,7 +11,7 @@
 body {
   padding:0px 0 20px 0px;
   margin: 0px;
-  font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 "Verdana", sans-serif;
   color:#f0e7d5;
   font-weight: normal;
   background: #252525;
@@ -58,6 +58,7 @@ h3 {
 a {
   color:#ffcc00;
   font-weight:400;
+  text-decoration: underline;
 
   &:hover {
     color: #ffeb9b;
@@ -239,7 +240,7 @@ section {
   max-width:650px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
-  margin-top: 70px;
+  margin-top: 80px;
 
   #title {
     border: 0;
@@ -249,10 +250,11 @@ section {
 
     h1 {
       font-family: "Lucida Console", "Courier New", Lucida Console, Courier New, monospace ;
-      font-weight: normal;
+      font-weight: bold;
       font-size: 60px;
       text-align: center;
       line-height: 36px;
+      font-stretch: expanded;
     }
 
     p {
@@ -265,7 +267,7 @@ section {
     
     
     .desc {
-      font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "Lucida Console", "Courier New", Lucida Console, Courier New, monospace ;
       font-weight: normal;
       font-size: 24px;
       text-align: center;
