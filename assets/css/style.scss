@@ -3,6 +3,7 @@
 
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@500&display=swap');
 
 @import "normalize";
 @import "fonts";
@@ -248,14 +249,15 @@ section {
     margin: 0 0 50px 0;
     padding: 0 0 5px 0;
 
-    h1 {
-      font-family: "Lucida Console", "Courier New", Lucida Console, Courier New, monospace ;
+  .h1 {
+      font-family: "Courier New", Lucida Console, Courier New, monospace ;
       font-weight: bold;
       font-size: 60px;
       text-align: center;
       line-height: 36px;
       font-stretch: expanded;
-    }
+      letter-spacing: 0.075em;
+  }
 
     p {
       color: #d7cfbe;
@@ -277,6 +279,7 @@ section {
       a {
         color:#5ecca4;
         font-weight:400;
+        text-decoration:none;
 
         &:hover {
           color: #71f5c4;
