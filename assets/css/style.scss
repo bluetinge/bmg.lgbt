@@ -303,6 +303,17 @@ section {
       &.right {
         float: right;
       }
+      
+      a {
+        color: #696969;
+        font-weight:300;
+        text-decoration:underline;
+        text-decoration-thickness: 1px;
+
+        &:hover {
+          color: #9c9c9c;
+        }
+      
     }
 
   }
